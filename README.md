@@ -112,7 +112,7 @@ rag-document-assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <REPOSITORY_URL>
 cd rag-document-assistant
 ```
 
@@ -142,7 +142,6 @@ Get your API key from Google AI Studio:
 
 https://aistudio.google.com/apikey
 
-Do not commit your `.env` file or share your API key publicly.
 
 ### 5. Run the application
 
@@ -171,12 +170,3 @@ documents/distributed_systems_intro.pdf
 - Conversation history is not maintained between questions.
 - Document responses use retrieved context and do not yet provide page-level source citations.
 - The current application uses a command-line interface.
-
-## Future Improvements
-
-- Add conversation history and session management.
-- Add page-level source citations.
-- Improve chunking and retrieval strategies.
-- Add hybrid search and reranking.
-- Expose application functionality through FastAPI.
-- Containerize the application using Docker.
